@@ -1,6 +1,6 @@
-# Pico P2P LoRa Chat 🚀 🚀 🚀 
+# 📡 Pico P2P LoRa Chat 🚀
 
-This project demonstrates a half-duplex peer-to-peer (P2P) chat application using Raspberry Pi Pico 2W and Waveshare SX1262 LoRa modules.
+This project demonstrates a half-duplex peer-to-peer (P2P) chat application using Raspberry Pi Pico 2W and Waveshare SX1262 LoRa modules. I tested a distance of a few centimeters between each peer and the speed was amazingly fast (realtime).
 
 ## Hardware Used
 
@@ -26,10 +26,10 @@ Connect the Pico 2W to the Waveshare SX1262 module. It's an expansion module tha
     git clone https://github.com/yourusername/pico-p2p-lora-chat.git
     ```
 
-2. Open the project in Arduino IDE.
+2. Open the project in Arduino IDE and adjust `radio.setFrequency(868.0);` to match your region (default setting: 868 MHz).
 
 3. Select the correct board and port:
-    - Board: `Raspberry Pi Pico`
+    - Board: `Raspberry Pi Pico/RP2040/RP2350`
     - Port: Select the appropriate port for your Pico 2W
 
 4. Upload the code to the Pico 2W.
@@ -47,3 +47,7 @@ Now you're ready to chat! :-)
 
 ![Peer #1](https://i.imgur.com/Nr0fo4C.png)
 ![Peer #2](https://i.imgur.com/TOd5P33.png)
+
+## Show Support
+
+If you find this project useful, [you can buy me a coffee](https://ko-fi.com/alexsla). 😇
