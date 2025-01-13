@@ -1,6 +1,6 @@
-# Pico P2P LoRa Chat
+# Pico P2P LoRa Chat 🚀 🚀 🚀 
 
-This project demonstrates a peer-to-peer (P2P) chat application using Raspberry Pi Pico 2W and Waveshare SX1262 LoRa modules.
+This project demonstrates a half-duplex peer-to-peer (P2P) chat application using Raspberry Pi Pico 2W and Waveshare SX1262 LoRa modules.
 
 ## Hardware Used
 
