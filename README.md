@@ -21,9 +21,11 @@ Connect the Pico 2W to the Waveshare SX1262 module. It's an expansion module tha
 
 ## Setup
 
+If you haven't installed Arduino-Core for Pico 2W, you can't flash to Pico 2W (check Prerequisites)!
+
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/pico-p2p-lora-chat.git
+    git clone https://github.com/qubit999/pico-p2p-lora-chat-cpp-arduino-ide.git
     ```
 
 2. Open the project in Arduino IDE and adjust `radio.setFrequency(868.0);` to match your region (default setting: 868 MHz).
